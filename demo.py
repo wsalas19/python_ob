@@ -10,6 +10,6 @@ def imc_calculation(w, h):
 
 imc = imc_calculation(weight, height)
 
-result = f'Your IMC is {round(imc)}'
+result = f'Your IMC is {round(imc,2)}'
 
 print(result)
